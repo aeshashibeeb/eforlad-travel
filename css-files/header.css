@@ -1,0 +1,106 @@
+header{
+    background-image: url('../assets/pic/banner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    color:#fff;
+    font-size:100px ;
+    font-weight: bolder;
+}
+
+header h1 span{
+    color: #3df1f4;
+}
+
+.btn{
+   color: #fff;
+   background-color: #e24d0d; 
+   padding: 15px 60px;
+   font-weight: bold;
+   border: none;
+}
+
+.btn:hover{
+    background-color: #505050;
+}
+
+header > .btn {
+    border-radius: 25px;
+ }
+
+header .info{
+    width: 80%;
+    margin: 20px 10%;
+}
+
+header div .info2{
+    background-color: #fff;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
+
+header .info h3{
+    text-align: start;
+    width:fit-content;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding:10px 20px;
+    margin: 0;
+    color:#242e6e;
+}
+
+header .info2 .head1 form{
+    width:100% ;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content:space-evenly;
+}
+
+header .info2 .head1{
+    width: 75%;
+}
+
+header .info2 .head2{
+    width: 25%;
+}
+
+header .info2 .head2 .btn{
+    padding: 15px 80px;
+    text-align: center;
+    display: flex;
+    align-content:center;
+    margin-left:20%;
+}
+
+header .info2 .head1 form{
+    text-align: start;
+    color: #414248;
+}
+
+header .info2 .head1 form input , header .info2 .head1 form  select{
+    margin: 10px 0px 20px  ;
+    padding: 5%;
+    width:230px;
+    border:2px solid #cecece;
+    border-radius: 3PX;
+}
+
+header .info2 .head1 form  select{
+    margin-right: -25px;
+    width: 250px;
+}
+
+header .info2 .head1 form #date{
+    color: #a2a1a1;
+}
+
+header .info2 .head1 form select{
+    color: #a2a1a1;
+}
+

@@ -1,0 +1,55 @@
+.section1{
+    background-color: #fff;
+    text-align: center;
+}
+
+.section1 h1{
+    font-size: 40px;
+}
+
+.section1 > p{
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto ;
+    line-height: 30px;
+    font-weight: bold;
+    color: #36364f;;
+}
+
+.section1 hr{
+    width: 200px;
+    border:2px solid #c5dee3;;
+    height: 0px;
+    margin: 55px 20px;
+}
+
+.section1 .hhr{
+    display: flex;
+    justify-content: center;
+}
+
+.section1 .plane{
+    display: flex;
+    border: 15px solid #0d3448;
+    width: 70%;
+    margin:6% 20% 0 15%;
+    height: 380px;
+}
+
+.section1 .plane img{
+    margin-top: -95px;
+    margin-right: -200px;
+}
+
+.section1 .plane p{
+    margin: 40px 0 40px 30px;
+    text-align: start;
+    width:106%;
+    line-height: 30px;
+    color: #2b2935;
+}
+
+.section1 .btn{
+    margin: 50px auto;
+    border-radius: 25px;
+}

@@ -1,0 +1,26 @@
+.section5{
+    text-align: center;
+    background-image:url('../assets/pic/Amazing.jpg');
+    background-size: cover;
+    height: 470px;
+}
+
+.section5 h1{
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.section5 p{
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto ;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.section5 .btn{
+    border-radius: 25px;
+    margin: 20px 10px;
+}

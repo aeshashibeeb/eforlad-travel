@@ -1,0 +1,79 @@
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../assets/pic/header-bg.jpg');
+    background-size: cover;
+}
+
+.left-nav img{
+    margin-left:200px;
+    margin-top: 30px;
+}
+
+.right-nav{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-nav .top-nav{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    height: 50%;
+    color: #a4a7bf;
+}
+
+.right-nav .top-nav .zoey{
+    margin-right: 200px;
+}
+
+.right-nav .top-nav .tel{
+    margin-left: 60px;
+}
+
+.right-nav .top-nav ::after{
+    background-image: url('../assets/pic/top_arrow.png');
+}
+
+.right-nav .top-nav div{
+    width: 70%;
+    display: flex;
+    font-size: small;
+    font-weight: bold;
+}
+
+.right-nav .top-nav div img{
+    margin: 17px 12px 10px;
+}
+
+.right-nav .top-nav div p{
+    margin: 19px 0px 0px;
+}
+
+.right-nav .bot-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 80%;
+    text-align: center;
+    padding: 0px 70px;
+}
+
+li{
+    color: #fff;
+    padding: 10px 0px 10px; 
+}
+
+.right-nav .bot-nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.right-nav .bot-nav a:hover{
+    color: #000;
+}

@@ -1,0 +1,16 @@
+@import url('/css-files/navbar.css');
+@import url('/css-files/header.css');
+@import url('/css-files/section1.css');
+@import url('/css-files/section2.css');
+@import url('/css-files/section3.css');
+@import url('/css-files/section4.css');
+@import url('/css-files/section5.css');
+@import url('/css-files/section6.css');
+@import url('/css-files/footer.css');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}

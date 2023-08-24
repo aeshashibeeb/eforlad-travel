@@ -1,0 +1,78 @@
+.section6{
+    text-align: center;
+}
+
+.section6 h1{
+    font-size: 40px;
+}
+
+.section6 hr{
+    width: 200px;
+    border:2px solid #c5dee3;;
+    height: 0px;
+    margin: 55px 20px;
+}
+
+.section6 .hhr{
+    display: flex;
+    justify-content: center;
+}
+
+.section6 > p{
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto ;
+    line-height: 30px;
+    font-weight: bold;
+    color: #36364f;
+    margin-top: -10px;
+}
+
+.section6 .sec6-main{
+    display: flex;
+    width: 80%;
+    margin:40px auto ;
+}
+
+.section6 .sec6-child{
+    position: relative;
+}
+
+.section6 h3{
+    padding: 15px 40px;
+    background-color: #1b2f3e;
+    color: #fff;
+    position: absolute;
+    top:-2.4%;
+    right:73.9%;
+    font-size:smaller;
+}
+
+.section6 .sec6-child .child {
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #61a1de;
+}
+
+.section6 .sec6-child .child span{
+    color:#5e5e6e;
+}
+
+.section6 .sec6-child h2{
+    width: 94%;
+    color: #36364f;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.section6 .sec6-child .parg{
+    width: 94%;
+    text-align: start;
+    margin: 20px auto;
+    line-height: 25px;
+    color: #5e5e6e;
+    font-size: 14px;
+}
+
